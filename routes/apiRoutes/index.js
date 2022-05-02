@@ -1,6 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const { v4: uuidv4 } = require('uuid');
+const {
+    readNote,
+    createNote,
+    deleteNote
+} = require("../../lib/controller");
 
 router.get("/notes", (req, res) => {
     fs.readFile("db/db.json", "utf-8", (err, data) => {
