@@ -1,12 +1,12 @@
 const express = require("express");
 const router = express.Router();
-const fs = require("fs");
 const { v4: uuidv4 } = require('uuid');
 
 router.get("/notes", (req, res) => {
     fs.readFile("db/db.json", "utf-8", (err, data) => {
         if (err) {
-            res.sendStatus(400).json({ error: err.message });
+            // res.sendStatus(400).json({ error: err.message });
+            throw err;
         };
         res.send(JSON.parse(data));
     });
@@ -30,6 +30,11 @@ router.post("/notes", (req, res) => {
             res.json(newNote);
         });
     });
+});
+
+router.delete(`/notes/:id`, (req, res) => {
+    deleteNote(req.params.id, savedNotes);
+    res.json(savedNotes);
 });
 
 module.exports = router;
