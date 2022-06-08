@@ -1,7 +1,6 @@
 // install dependencies
 const express = require("express");
 const router = express.Router();
-const { v4: uuidv4 } = require('uuid');
 const controller = require("../../lib/controller");
 
 // return all notes 
@@ -40,4 +39,5 @@ router.delete(`/notes/:id`, (req, res) => {
         });
 });
 
+// exports
 module.exports = router;
