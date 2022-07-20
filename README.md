@@ -7,7 +7,6 @@
 - [Description](#description)
 - [Deployed Site](#deployed-site)
 - [Features](#features)
-
 - [Technologies](#technologies)
 - [Future Development](#future-development)
 - [Credits](#credits)
@@ -18,7 +17,7 @@ This is my eleventh challenge assignment for the University of Oregon Coding Boo
 
 ## Deployed Site
 
-Follow [this link](https://calm-sierra-01741.herokuapp.com/) to view and use our site!
+Follow [this link](https://calm-sierra-01741.herokuapp.com/) to view and use my site!
 
 ## Features
 
@@ -56,7 +55,7 @@ In the future, I would like to add the following improvements:
 - Some kind of checkbox system that allows users to select multiple notes for deletion or sorting.
 - A file or organizational system in which users can sort their notes.
 
-I'm always interested in refactoring code to improve it's functionality. If you would like to suggest your own improvements, you can reach our development team at the links below.
+I'm always interested in refactoring code to improve it's functionality. If you would like to suggest your own improvements, you can reach me at the links below.
 
 - <a href="mailto:ashlynn4567@gmail.com">Email</a>
 - <a href="https://github.com/ashlynn4567">GitHub</a>
